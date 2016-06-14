@@ -53,4 +53,6 @@ Copyright, Authors and Licence:
     ],
     'installable': True,
     'application': True,
+    'price': 20.00,
+    'currency': 'EUR',
 }
