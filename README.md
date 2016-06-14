@@ -1,4 +1,4 @@
-Samples module for Odoo Odoo Website Customization Modules
+Odoo Website Customization Modules
 ===================
 
 This project aims to give to you Odoo Website Customization Modules
