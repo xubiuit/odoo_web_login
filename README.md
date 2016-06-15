@@ -1,7 +1,7 @@
-Odoo Website Customization Modules
+Odoo Web Login Screen
 ===================
 
-This project aims to give to you Odoo Website Customization Modules
+This project aims to give to you the new Odoo Web Login Screen
 
 [//]: # (addons)
 Available addons
