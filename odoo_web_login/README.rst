@@ -23,19 +23,19 @@ Usage
 
 Disable Manage Databases
 
-.. figure:: odoo_web_login/static/description/disable_manage_database.jpg
+.. figure:: disable_manage_database.jpg
    :scale: 80 %
    :alt: Disable Manage Databases
 
 Disable Footer
 
-.. figure:: odoo_web_login/static/description/disable_footer.jpg
+.. figure:: disable_footer.jpg
    :scale: 80 %
    :alt: Disable Footer
    
 Default Login Screen
 
-.. figure:: odoo_web_login/static/description/change_background_day.jpg
+.. figure:: change_background_day.jpg
    :scale: 80 %
    :alt: Default Login Screen
 
@@ -43,25 +43,25 @@ Change Background by Hours
 
 Night:
 
-.. figure:: odoo_web_login/static/description/change_background_night.jpg
+.. figure:: change_background_night.jpg
    :scale: 80 %
    :alt: Default Login Screen Night
    
 Dawn:
 
-.. figure:: odoo_web_login/static/description/change_background_dawn.jpg
+.. figure:: change_background_dawn.jpg
    :scale: 80 %
    :alt: Default Login Screen Dawn
    
 Day:
 
-.. figure:: odoo_web_login/static/description/change_background_day.jpg
+.. figure:: change_background_day.jpg
    :scale: 80 %
    :alt: Default Login Screen Day
 
 Dusk:
 
-.. figure:: odoo_web_login/static/description/change_background_dusk.jpg
+.. figure:: change_background_dusk.jpg
    :scale: 80 %
    :alt: Default Login Screen Dusk
 
