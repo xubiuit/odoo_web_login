@@ -5,18 +5,7 @@
 #    Copyright (C) 2016- XUBI.ME (http://www.xubi.me)
 #    @author binhnguyenxuan (https://www.linkedin.com/in/binh-nguyen-xuan-46556279)
 #
-#    This program is free software: you can redistribute it and/or modify
-#    it under the terms of the GNU Affero General Public License as
-#    published by the Free Software Foundation, either version 3 of the
-#    License, or (at your option) any later version.
-#
-#    This program is distributed in the hope that it will be useful,
-#    but WITHOUT ANY WARRANTY; without even the implied warranty of
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#    GNU Affero General Public License for more details.
-#
-#    You should have received a copy of the GNU Affero General Public License
-#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#    This program is paid software base on OEEL-1 license
 #    
 #    Background Source: http://forum.xda-developers.com/showpost.php?p=37322378
 #
@@ -31,7 +20,7 @@ The new configurable Odoo Web Login Screen
 """,
     'author': "binhnguyenxuan (https://www.linkedin.com/in/binh-nguyen-xuan-46556279)",
     'website': 'http://www.xubi.me',
-    'license': 'Odoo Enterprise Edition License v1.0',
+    'license': 'OEEL-1',
     'depends': [
     ],
     'data': [
@@ -42,6 +31,6 @@ The new configurable Odoo Web Login Screen
     ],
     'installable': True,
     'application': True,
-    'price': 15.00,
+    'price': 11.00,
     'currency': 'EUR',
 }
