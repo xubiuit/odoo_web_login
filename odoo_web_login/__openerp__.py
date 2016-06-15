@@ -31,7 +31,7 @@ The new configurable Odoo Web Login Screen
 """,
     'author': "binhnguyenxuan (https://www.linkedin.com/in/binh-nguyen-xuan-46556279)",
     'website': 'http://www.xubi.me',
-    'license': 'AGPL-3',
+    'license': 'Odoo Enterprise Edition License v1.0',
     'depends': [
     ],
     'data': [
@@ -42,6 +42,6 @@ The new configurable Odoo Web Login Screen
     ],
     'installable': True,
     'application': True,
-    'price': 20.00,
+    'price': 15.00,
     'currency': 'EUR',
 }
