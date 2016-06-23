@@ -22,48 +22,53 @@ Usage
 ====
 
 Disable Manage Databases
+=======================
 
 .. figure:: disable_manage_database.jpg
    :scale: 80 %
    :alt: Disable Manage Databases
 
 Disable Footer
+=============
 
 .. figure:: disable_footer.jpg
    :scale: 80 %
    :alt: Disable Footer
    
 Default Login Screen
+===================
 
 .. figure:: change_background_day.jpg
    :scale: 80 %
    :alt: Default Login Screen
 
 Change Background by Hours
+=========================
 
-Night:
+Night (from 0h -> 3h and 18h -> 23h):
+====================================
 
 .. figure:: change_background_night.jpg
    :scale: 80 %
    :alt: Default Login Screen Night
    
-Dawn:
+Dawn (from 3h -> 7h):
+====================
 
 .. figure:: change_background_dawn.jpg
    :scale: 80 %
    :alt: Default Login Screen Dawn
    
-Day:
+Day (from 7h -> 16h):
+====================
 
 .. figure:: change_background_day.jpg
    :scale: 80 %
    :alt: Default Login Screen Day
 
-Dusk:
+Dusk (from 16h -> 18h):
+======================
 
 .. figure:: change_background_dusk.jpg
    :scale: 80 %
    :alt: Default Login Screen Dusk
-
-
-
