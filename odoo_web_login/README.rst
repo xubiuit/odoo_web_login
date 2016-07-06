@@ -32,7 +32,7 @@ Configuration
 
 
 Disable Manage Databases
-=======================
+-----------------------
 
 .. figure:: disable_manage_database.jpg
    :scale: 80 %
@@ -40,7 +40,7 @@ Disable Manage Databases
 
 
 Disable Footer
-=============
+-------------
 
 .. figure:: disable_footer.jpg
    :scale: 80 %
@@ -48,7 +48,7 @@ Disable Footer
 
 
 Default Login Screen
-===================
+-------------------
 
 .. figure:: change_background_day.jpg
    :scale: 80 %
@@ -56,11 +56,11 @@ Default Login Screen
 
 
 Change Background by Hours
-=========================
+-------------------------
 
 
 Night (from 0h -> 3h and 18h -> 23h):
-====================================
+------------------------------------
 
 .. figure:: change_background_night.jpg
    :scale: 80 %
@@ -68,7 +68,7 @@ Night (from 0h -> 3h and 18h -> 23h):
 
 
 Dawn (from 3h -> 7h):
-====================
+--------------------
 
 .. figure:: change_background_dawn.jpg
    :scale: 80 %
@@ -76,7 +76,7 @@ Dawn (from 3h -> 7h):
 
 
 Day (from 7h -> 16h):
-====================
+--------------------
 
 .. figure:: change_background_day.jpg
    :scale: 80 %
@@ -84,7 +84,7 @@ Day (from 7h -> 16h):
 
 
 Dusk (from 16h -> 18h):
-======================
+----------------------
 
 .. figure:: change_background_dusk.jpg
    :scale: 80 %
