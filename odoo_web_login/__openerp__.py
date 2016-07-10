@@ -24,7 +24,7 @@
 {
     'name': 'Odoo Web Login Screen',
     'summary': 'The new configurable Odoo Web Login Screen',
-    'version': '9.0.1.0.0',
+    'version': '8.0.1.0',
     'category': 'Website',
     'summary': """
 The new configurable Odoo Web Login Screen
@@ -36,7 +36,7 @@ The new configurable Odoo Web Login Screen
     ],
     'data': [
         'data/ir_config_parameter.xml',
-        'templates/webclient_templates.xml',
+#         'templates/webclient_templates.xml',
     ],
     'qweb': [
     ],
