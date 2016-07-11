@@ -31,7 +31,7 @@ body, html {
 .o_database_list {
 	display: inline-block;
     vertical-align: middle;
-    padding: 50px;
+    padding: 40px;
     border: 1px solid #DDD;
     border-radius: 5px;
     float: none;
@@ -109,7 +109,7 @@ a.btn-select:hover {
 }
 
 .o_database_list .company_logo {
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 	max-width: 100%;
     height: auto;
 }
@@ -117,4 +117,12 @@ a.btn-select:hover {
 .oe_login_buttons {
 	margin-top: 30px;
 	margin-bottom: 10px;
+}
+
+.oe_login_form .form-control {
+	height: 36px;
+}
+
+.oe_single_form_footer {
+	margin-top: 20px;
 }

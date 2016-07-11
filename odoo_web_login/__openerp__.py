@@ -36,7 +36,7 @@ The new configurable Odoo Web Login Screen
     ],
     'data': [
         'data/ir_config_parameter.xml',
-#         'templates/webclient_templates.xml',
+        'templates/webclient_templates.xml',
     ],
     'qweb': [
     ],
