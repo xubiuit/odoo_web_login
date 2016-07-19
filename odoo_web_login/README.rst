@@ -4,6 +4,13 @@ Odoo Web Login Screen
 This project aims to give to you the new Odoo Web Login Screen
 
 
+New updated
+==========
+
+Apply form for module website
+-----------------------------
+
+
 Installation
 ============
 Installation process is at present stage only possible in manual way.
