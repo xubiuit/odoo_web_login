@@ -3,6 +3,16 @@ Odoo Web Login Screen v8
 ========================
 This project aims to give to you the new Odoo Web Login Screen
 
+Contact
+=======
+
+- Blog: www.xubi.me_
+- Linkedin: binhnguyenxuan_
+- Skype: **xubi.uit**
+- Email: **kid.uit.1412@gmail.com**
+
+.. _www.xubi.me: http://www.xubi.me
+.. _binhnguyenxuan: https://www.linkedin.com/in/binhnguyenxuan
 
 Installation
 ============
