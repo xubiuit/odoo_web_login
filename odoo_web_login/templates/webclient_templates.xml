@@ -48,6 +48,22 @@
 		<xpath expr="//span[@class='input-group-btn']/a[@href='/web/database/selector']" position="replace">
 			<a href="/web/database/selector" class="btn btn-default btn-select"><i class="fa fa-database"></i></a>
 		</xpath>
-		
+
+		<xpath expr="//div[contains(@class,'oe_login_buttons')]/button" position="after">
+			<div class="text-center">
+				<a t-if="signup_enabled"
+				   t-attf-href="/web/signup?{{ keep_query() }}"
+				   class="btn btn-link">Sign up</a>
+				<a t-if="reset_password_enabled"
+				   t-attf-href="/web/reset_password?{{ keep_query() }}"
+				   class="btn btn-link">Reset Password</a>
+			</div>
+		</xpath>
 	</template>
+
+	<template id="auth_signup_login" inherit_id="auth_signup.login" name="Sign up - Reset Password">
+		<xpath expr="//a[@t-if='signup_enabled']" position="replace"/>
+		<xpath expr="//a[@t-if='reset_password_enabled']" position="replace"/>
+	</template>
+
 </odoo>
