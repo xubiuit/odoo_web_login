@@ -48,10 +48,6 @@
 		<xpath expr="//span[@class='input-group-btn']/a[@href='/web/database/selector']" position="replace">
 			<a href="/web/database/selector" class="btn btn-default btn-select"><i class="fa fa-database"></i></a>
 		</xpath>
-
-		<xpath expr="//div[contains(@class,'oe_login_buttons')]/button" position="attributes">
-			<attribute name="class">btn btn-primary pull-right</attribute>
-		</xpath>
 		
 	</template>
 </odoo>
