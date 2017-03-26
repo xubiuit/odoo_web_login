@@ -48,6 +48,6 @@
 		<xpath expr="//span[@class='input-group-btn']/a[@href='/web/database/selector']" position="replace">
 			<a href="/web/database/selector" class="btn btn-default btn-select"><i class="fa fa-database"></i></a>
 		</xpath>
-		
 	</template>
+
 </odoo>
