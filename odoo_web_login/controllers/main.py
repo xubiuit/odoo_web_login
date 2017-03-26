@@ -42,12 +42,8 @@ class Home(Home):
         cr = request.cr
         uid = odoo.SUPERUSER_ID
         param_obj = request.env['ir.config_parameter']
-        user_obj = request.env['res.users']
         request.params['disable_footer'] = ast.literal_eval(param_obj.get_param('login_form_disable_footer')) or False
         request.params['disable_database_manager'] = ast.literal_eval(param_obj.get_param('login_form_disable_database_manager')) or False
-
-        root_user = user_obj.browse(uid)
-        request.params['title'] = root_user.company_id and root_user.company_id.name or 'xubi.me'
 
         change_background = ast.literal_eval(param_obj.get_param('login_form_change_background_by_hour')) or False
         if change_background:
