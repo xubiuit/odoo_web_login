@@ -42,8 +42,18 @@ class Home(Home):
         cr = request.cr
         uid = odoo.SUPERUSER_ID
         param_obj = request.env['ir.config_parameter']
-        request.params['disable_footer'] = ast.literal_eval(param_obj.get_param('login_form_disable_footer')) or False
-        request.params['disable_database_manager'] = ast.literal_eval(param_obj.get_param('login_form_disable_database_manager')) or False
+
+        login_form_disable_footer = param_obj.get_param('login_form_disable_footer')
+        disable_database_manager = param_obj.get_param('login_form_disable_database_manager')
+
+        # extra data type check: sometimes it would become Bool instead of str
+        if type(login_form_disable_footer) is not bool:
+            login_form_disable_footer = ast.literal_eval(login_form_disable_footer)
+        if type(disable_database_manager) is not bool:
+            disable_database_manager = ast.literal_eval(disable_database_manager)
+
+        request.params['disable_footer'] = login_form_disable_footer or False        
+        request.params['disable_database_manager'] = disable_database_manager or False
 
         change_background = ast.literal_eval(param_obj.get_param('login_form_change_background_by_hour')) or False
         if change_background:
