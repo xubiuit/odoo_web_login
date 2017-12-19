@@ -1,5 +1,5 @@
 Odoo Web Login Screen
-===================
+=====================
 
 This project aims to give to you the new Odoo Web Login Screen
 
@@ -8,5 +8,5 @@ Available addons
 ----------------
 addon | version | summary
 --- | --- | ---
-[odoo_web_login](odoo_web_login/) | 10.0.1.0 | Odoo Web Login Screen
+[odoo_web_login](odoo_web_login/) | 11.0.1.0 | Odoo Web Login Screen
 

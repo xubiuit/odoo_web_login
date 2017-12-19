@@ -1,5 +1,5 @@
 =========================
-Odoo Web Login Screen v10
+Odoo Web Login Screen v11
 =========================
 This project aims to give to you the new Odoo Web Login Screen
 
@@ -30,7 +30,7 @@ In this case you have to install the modules into /opt/odoo/custom/addons. At th
 
 Usage
 =====
-Maybe images in github do not fit with the Odoo apps, so you can check: https://apps.odoo.com/apps/modules/10.0/odoo_web_login/ for more details.
+Maybe images in github do not fit with the Odoo apps, so you can check: https://apps.odoo.com/apps/modules/11.0/odoo_web_login/ for more details.
 Thank you.
 
 New Feature

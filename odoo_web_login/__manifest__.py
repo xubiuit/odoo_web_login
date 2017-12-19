@@ -2,8 +2,8 @@
 ##############################################################################
 #
 #    Samples module for Odoo Web Login Screen
-#    Copyright (C) 2016- XUBI.ME (http://www.xubi.me)
-#    @author binhnguyenxuan (https://www.linkedin.com/in/binh-nguyen-xuan-46556279)
+#    Copyright (C) 2017- XUBI.ME (http://www.xubi.me)
+#    @author binhnguyenxuan (https://www.linkedin.com/in/binhnguyenxuan)
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -24,7 +24,7 @@
 {
     'name': 'Odoo Web Login Screen',
     'summary': 'The new configurable Odoo Web Login Screen',
-    'version': '10.0.1.0',
+    'version': '11.0.1.0',
     'category': 'Website',
     'summary': """
 The new configurable Odoo Web Login Screen
