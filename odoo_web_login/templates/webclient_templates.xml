@@ -12,20 +12,20 @@
 			<t t-set="body_classname" t-value="''"/>
    		</xpath>
    		
-   		<xpath expr="//div[hasclass('row')]" position="attributes">
+   		<xpath expr="//div[hasclass('container')]" position="attributes">
    			<attribute name="class">body_login</attribute>
    		</xpath>
    		
-   		<xpath expr="//div[hasclass('o_database_list')]" position="before">
-   			<div id="background-wrapper"
-   				t-attf-style="background-image: url('#{background_src}');"></div>
+   		<xpath expr="//div[@t-attf-class='card border-0 mx-auto mt-5 bg-100 {{login_card_classes}} o_database_list']" position="before">
+   			<div id="background-wrapper" t-attf-style="background-image: url('#{background_src}');"></div>
    		</xpath>
    		
-   		<xpath expr="//div[hasclass('o_database_list')]" position="attributes">
+   		<xpath expr="//div[@t-attf-class='card border-0 mx-auto mt-5 bg-100 {{login_card_classes}} o_database_list']" position="attributes">
    			<attribute name="class">col-lg-3 col-md-4 col-sm-4 col-xs-11 o_database_list</attribute>
+   			<attribute name="style"></attribute>
    		</xpath>
    		
-   		<xpath expr="//div[hasclass('text-center')]/img" position="attributes">
+   		<xpath expr="//div[hasclass('card-body')]/div/img[1]" position="attributes">
    			<attribute name="class">company_logo</attribute>
    		</xpath>
    	</template>
@@ -43,10 +43,6 @@
 		
 		<xpath expr="//input[@name='password']" position="attributes">
 			<attribute name="placeholder">Password ...</attribute>
-		</xpath>
-		
-		<xpath expr="//span[hasclass('input-group-btn')]/a[@href='/web/database/selector']" position="replace">
-			<a href="/web/database/selector" class="btn btn-default btn-select"><i class="fa fa-database"></i></a>
 		</xpath>
 	</template>
 
