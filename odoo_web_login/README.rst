@@ -1,5 +1,5 @@
 =========================
-Odoo Web Login Screen v11
+Odoo Web Login Screen v12
 =========================
 This project aims to give to you the new Odoo Web Login Screen
 
