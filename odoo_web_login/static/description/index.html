@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Layout 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+<!-- odoo description page css -->
+<style>
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    .h6 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        line-height: 1.1;
+        color: #21272b;
+    }
+
+    * {
+        font-family: "Montserrat", sans-serif;
+    }
+</style>
+
+<body>
+<!-- If your content is ending on right div arrow , please remove "transform: translateX(-35px)" property from ksolves odoo services and from ksolves footer sections
+      if you don't understand this comment contact Sukhjinder Singh
+-->
+<div style="padding:30px;">
+    <div class="container" style="transform: translateX(26px) !important;">
+        <!-- Header Section -->
+        <div style="margin-bottom: 20px;padding-bottom: 15px;display: flex;flex-wrap: wrap;justify-content: space-between">
+
+            <div style="display: flex;
+                        width: max-content;
+                        align-items: center;
+                        margin-right: 10px">
+                <a href="https://xaoxao.vn/">
+                    <img width="400px" src="images/logo.png" alt="xaoxaodigital-logo">
+                </a>
+                <div class="section" id="contact">
+                    <h2>Contact</h2>
+                    <ul class="simple">
+                        <li>Website: <a target="_blank" href="https://xaoxao.vn">https://xaoxao.vn</a></li>
+                        <li>Linkedin: <a target="_blank" href="https://www.linkedin.com/company/xaoxaodigital/">Xao Xao
+                            Digital LinkedIn</a>
+                        </li>
+                        <li>Youtube: <a target="_blank" href="https://www.youtube.com/channel/UCkywiq1w9BM5j7gpboNmvvw">Xao
+                            Xao Digital Channel</a></li>
+                        <li>Email: <strong>sales@xaoxao.vn</strong></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Overviww Section  -->
+        <div class="row" style="
+        border: 1px solid #d35400;
+        border-left: none;
+        border-radius: 35px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        position: relative;
+        padding: 2% 2%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;">
+            <div class="col-md-6">
+                <h2 style="color: black;text-align: center;">OVERVIEW</h2>
+                <div class="text-center">
+                    <img style="width: 150px;margin-top: -15px;" src="images/line.png" alt="">
+                </div>
+                <p style="text-align: center;
+                                padding:20px 20px;
+                                color: #616161;
+                                font-size: 18px;
+                                letter-spacing: 0.2px;
+                                ">
+                    Odoo Web Login Screen v13 - Xao Xao Digital
+                </p>
+            </div>
+
+            <div class="col-md-5">
+                <img src="images/overview.png" alt="Overview Xao Xao Digital" style="width:100%;">
+            </div>
+        </div>
+        <!-- Features Section -->
+        <div class="row" style="
+                    border: 1px solid #d35400;
+                    border-right: none;
+                    margin: -1px -15px;
+                    transform: translateX(-35px);
+                    padding: 2% calc(2% + 35px);
+                    border-radius: 35px;
+                    border-top-right-radius: 0;
+                    border-bottom-right-radius: 0;
+                    position: relative;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                ">
+            <div class="col-md-5 text-center">
+                <img src="images/features.png" alt="Xao Xao Digital paytm features" style="width:80%;margin-top: 40px;">
+            </div>
+            <div class="col-md-7">
+                <h2 style="color: black;text-align: center;margin-bottom: 20px;">FEATURES</h2>
+                <div class="text-center" style="margin-bottom: 20px;">
+                    <img style="width: 150px;margin-top: -15px;" src="images/line.png" alt="">
+                </div>
+                <ul class="list-unstyled" style="font-size:18px;color: #616161;padding-left: 25px;">
+                    <li style="margin-bottom: 10px;display:flex;align-items: baseline;">
+                        <span>
+                            This project aims to give to you the new Odoo Web Login Screen
+                        </span>
+                    </li>
+                </ul>
+                Apply for module website (if installed):
+                <ul class="simple">
+                    <li>Remmember that, install *odoo_web_login* **after** install module *website*</li>
+                    <li>Or please **upgrade** *odoo_web_login* after install module *website*</li>
+                </ul>
+            </div>
+            <h3>All Configuration</h3>
+            <div class="col-md-12" style="margin-top: 40px;">
+                <img src="config.jpg" alt="All Configuration" style="width:100%;">
+            </div>
+            <h3>Disable Manage Databases</h3>
+            <div class="col-md-12" style="margin-top: 40px;">
+                <img src="disable_manage_database.jpg" alt="Disable Manage Databases" style="width:100%;">
+            </div>
+            <h3>Disable Footer</h3>
+            <div class="col-md-12" style="margin-top: 40px;">
+                <img src="disable_footer.jpg" alt="Disable Footer" style="width:100%;">
+            </div>
+            <h3>Default Login Screen</h3>
+            <div class="col-md-12" style="margin-top: 40px;">
+                <img src="change_background_day.jpg" alt="Default Login Screen" style="width:100%;">
+            </div>
+            <h3>Night (from 0h -> 3h and 18h -> 23h):</h3>
+            <div class="col-md-12" style="margin-top: 40px;">
+                <img src="change_background_night.jpg" alt="Night (from 0h -> 3h and 18h -> 23h)" style="width:100%;">
+            </div>
+            <h3>Dawn (from 3h -> 7h):</h3>
+            <div class="col-md-12" style="margin-top: 40px;">
+                <img src="change_background_dawn.jpg" alt="Dawn (from 3h -> 7h)" style="width:100%;">
+            </div>
+            <h3>Day (from 7h -> 16h):</h3>
+            <div class="col-md-12" style="margin-top: 40px;">
+                <img src="change_background_day.jpg" alt="Day (from 7h -> 16h)" style="width:100%;">
+            </div>
+            <h3>Dusk (from 16h -> 18h):</h3>
+            <div class="col-md-12" style="margin-top: 40px;">
+                <img src="change_background_dusk.jpg" alt="Dusk (from 16h -> 18h)" style="width:100%;">
+            </div>
+
+
+        </div>
+
+        <div class="row"
+             style="font-family: sans-serif; color: rgb(137, 134, 126); font-size: 14px;">
+            <div class="wrap" style="font-family: sans-serif;">
+                <div class="text-center" style="font-family: sans-serif;"><h5
+                        style="font-family: inherit; margin-top: 10px; margin-bottom: 10px; font-size: 14px;">RECENT
+                    PARTNERSHIPS</h5>
+                    <h3 style="font-family: inherit; margin-top: 20px; margin-bottom: 10px; font-size: 24px;">Our
+                        clients' success speaks for itself</h3></div>
+            </div>
+            <div class="row" style="font-family: sans-serif;">
+                <div class="client-item col-lg-2 col-md-2 col-sm-12 col-xs-12 text-center"
+                     style="font-family: sans-serif; width: 250px; margin-top: 30px;min-height:80px;">
+                    <div class="text-center" style="font-family: sans-serif;">
+                        <div style="font-family: sans-serif;"><img
+                                src="https://xaoxao.vn/xaoxao/static/src/img/client/vitality.png" alt="Vitality Markt"
+                                style="width: 170px; height: 76.2031px; background-size: auto 100%;"></div>
+                    </div>
+                </div>
+                <div class="client-item col-lg-2 col-md-2 col-sm-12 col-xs-12 text-center"
+                     style="font-family: sans-serif; width: 250px; margin-top: 30px;min-height:80px;">
+                    <div class="text-center" style="font-family: sans-serif;">
+                        <div style="font-family: sans-serif;"><img
+                                src="https://xaoxao.vn/xaoxao/static/src/img/client/smar7.jpg" alt="SMAR7 SA"
+                                style="width: 170px; height: 39.5469px; background-size: auto 100%;"></div>
+                    </div>
+                </div>
+                <div class="client-item col-lg-2 col-md-2 col-sm-12 col-xs-12 text-center"
+                     style="font-family: sans-serif; width: 250px; margin-top: 30px;min-height:80px;">
+                    <div class="text-center" style="font-family: sans-serif;">
+                        <div style="font-family: sans-serif;"><img
+                                src="https://xaoxao.vn/xaoxao/static/src/img/client/b92.png" alt="BALMES APLICACIONS 92"
+                                style="width: 170px; height: 84.3594px; background-size: auto 100%;"></div>
+                    </div>
+                </div>
+                <div class="client-item col-lg-2 col-md-2 col-sm-12 col-xs-12 text-center"
+                     style="font-family: sans-serif; width: 250px; margin-top: 30px;min-height:80px;">
+                    <div class="text-center" style="font-family: sans-serif;">
+                        <div style="font-family: sans-serif;"><img
+                                src="https://xaoxao.vn/xaoxao/static/src/img/client/exion.png" alt="EXION SA"
+                                style="width: 170px; height: 37.7344px; background-size: auto 100%;"></div>
+                    </div>
+                </div>
+                <div class="client-item col-lg-2 col-md-2 col-sm-12 col-xs-12 text-center"
+                     style="font-family: sans-serif; width: 250px; margin-top: 30px;min-height:80px;">
+                    <div class="text-center" style="font-family: sans-serif;">
+                        <div style="font-family: sans-serif;"><img
+                                src="https://xaoxao.vn/xaoxao/static/src/img/client/allinbrand.png" alt="AllinBrand"
+                                style="width: 170px; height: 34.6719px; background-size: auto 100%;"></div>
+                    </div>
+                </div>
+                <div class="client-item col-lg-2 col-md-2 col-sm-12 col-xs-12 text-center"
+                     style="font-family: sans-serif; width: 250px; margin-top: 30px;min-height:80px;">
+                    <div class="text-center" style="font-family: sans-serif;">
+                        <div style="font-family: sans-serif;"><img
+                                src="https://xaoxao.vn/xaoxao/static/src/img/client/medict-site.png" alt="Medict Site"
+                                style="width: 170px; height: 50.5px; background-size: auto 100%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt32"
+             style="font-family: sans-serif; color: rgb(137, 134, 126); font-size: 14px;">
+            <div class="wrap" style="font-family: sans-serif;">
+                <div class="text-center" style="font-family: sans-serif;"><h5
+                        style="font-family: inherit; margin-top: 10px; margin-bottom: 10px; font-size: 14px;">
+                    INTEGRATION SYSTEMS</h5>
+                    <h3 style="font-family: inherit; margin-top: 20px; margin-bottom: 10px; font-size: 24px;">We are
+                        specialized in pull it all together</h3></div>
+            </div>
+            <div class="row" style="font-family: sans-serif;">
+                <div class="client-item col-lg-2 col-md-2 col-sm-12 col-xs-12 text-center"
+                     style="font-family: sans-serif; width: 250px; margin-top: 30px;min-height:80px;">
+                    <div class="text-center" style="font-family: sans-serif;">
+                        <div style="font-family: sans-serif;"><img
+                                src="https://xaoxao.vn/xaoxao/static/src/img/client/drinkcommand.png"
+                                alt="Drink Command Ltd"
+                                style="width: 170px; height: 53.625px; background-size: auto 100%;"></div>
+                    </div>
+                </div>
+                <div class="client-item col-lg-2 col-md-2 col-sm-12 col-xs-12 text-center"
+                     style="font-family: sans-serif; width: 250px; margin-top: 30px;min-height:80px;">
+                    <div class="text-center" style="font-family: sans-serif;">
+                        <div style="font-family: sans-serif;"><img
+                                src="https://xaoxao.vn/xaoxao/static/src/img/client/six_payment.png"
+                                alt="SIX Card Solutions"
+                                style="width: 170px; height: 79.2344px; background-size: auto 100%;"></div>
+                    </div>
+                </div>
+                <div class="client-item col-lg-2 col-md-2 col-sm-12 col-xs-12 text-center"
+                     style="font-family: sans-serif; width: 250px; margin-top: 30px;min-height:80px;">
+                    <div class="text-center" style="font-family: sans-serif;">
+                        <div style="font-family: sans-serif;"><img
+                                src="https://xaoxao.vn/xaoxao/static/src/img/client/zkteco.png" alt="ZKTECO CO., LTD"
+                                style="width: 170px; height: 37.8906px; background-size: auto 100%;"></div>
+                    </div>
+                </div>
+                <div class="client-item col-lg-2 col-md-2 col-sm-12 col-xs-12 text-center"
+                     style="font-family: sans-serif; width: 250px; margin-top: 30px;min-height:80px;">
+                    <div class="text-center" style="font-family: sans-serif;">
+                        <div style="font-family: sans-serif;"><img
+                                src="https://xaoxao.vn/xaoxao/static/src/img/client/aws.png" alt="Amazon Web Services"
+                                style="width: 170px; height: 63.9062px; background-size: auto 100%;"></div>
+                    </div>
+                </div>
+                <div class="client-item col-lg-2 col-md-2 col-sm-12 col-xs-12 text-center"
+                     style="font-family: sans-serif; width: 250px; margin-top: 30px;min-height:80px;">
+                    <div class="text-center" style="font-family: sans-serif;">
+                        <div style="font-family: sans-serif;"><img
+                                src="https://xaoxao.vn/xaoxao/static/src/img/client/raspberry.png" alt="Raspberry PI"
+                                style="width: 170px; height: 56.5156px; background-size: auto 100%;"></div>
+                    </div>
+                </div>
+                <div class="client-item col-lg-2 col-md-2 col-sm-12 col-xs-12 text-center"
+                     style="font-family: sans-serif; width: 250px; margin-top: 30px;min-height:80px;">
+                    <div class="text-center" style="font-family: sans-serif;">
+                        <div style="font-family: sans-serif;"><img
+                                src="https://xaoxao.vn/xaoxao/static/src/img/client/docker.png" alt="Docker"
+                                style="width: 170px; height: 57.7344px; background-size: auto 100%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="font-family: sans-serif;">
+                <div class="client-item col-lg-2 col-md-2 col-sm-12 col-xs-12 text-center"
+                     style="font-family: sans-serif; width: 250px; margin-top: 30px;min-height:80px;">
+                    <div class="text-center" style="font-family: sans-serif;">
+                        <div style="font-family: sans-serif;"><img
+                                src="https://xaoxao.vn/xaoxao/static/src/img/client/fb_api.png" alt="Facebook Graph API"
+                                style="width: 170px; height: 44.5781px; background-size: auto 100%;"></div>
+                    </div>
+                </div>
+                <div class="client-item col-lg-2 col-md-2 col-sm-12 col-xs-12 text-center"
+                     style="font-family: sans-serif; width: 250px; margin-top: 30px;min-height:80px;">
+                    <div class="text-center" style="font-family: sans-serif;">
+                        <div style="font-family: sans-serif;"><img
+                                src="https://xaoxao.vn/xaoxao/static/src/img/client/instagram_api.png"
+                                alt="Instagram Graph API"
+                                style="width: 170px; height: 44.0156px; background-size: auto 100%;"></div>
+                    </div>
+                </div>
+                <div class="client-item col-lg-2 col-md-2 col-sm-12 col-xs-12 text-center"
+                     style="font-family: sans-serif; width: 250px; margin-top: 30px;min-height:80px;">
+                    <div class="text-center" style="font-family: sans-serif;">
+                        <div style="font-family: sans-serif;"><img
+                                src="https://xaoxao.vn/xaoxao/static/src/img/client/redmine.png" alt="Redmine"
+                                style="width: 170px; height: 37.9844px; background-size: auto 100%;"></div>
+                    </div>
+                </div>
+                <div class="client-item col-lg-2 col-md-2 col-sm-12 col-xs-12 text-center"
+                     style="font-family: sans-serif; width: 250px; margin-top: 30px;min-height:80px;">
+                    <div class="text-center" style="font-family: sans-serif;">
+                        <div style="font-family: sans-serif;"><img
+                                src="https://xaoxao.vn/xaoxao/static/src/img/client/gg_cloud.png" alt="Google Cloud"
+                                style="width: 170px; height: 43.375px; background-size: auto 100%;"></div>
+                    </div>
+                </div>
+                <div class="client-item col-lg-2 col-md-2 col-sm-12 col-xs-12 text-center"
+                     style="font-family: sans-serif; width: 250px; margin-top: 30px;min-height:80px;">
+                    <div class="text-center" style="font-family: sans-serif;">
+                        <div style="font-family: sans-serif;"><img
+                                src="https://xaoxao.vn/xaoxao/static/src/img/client/youtube.png" alt="Youtube"
+                                style="width: 170px; height: 38.4062px; background-size: auto 100%;"></div>
+                    </div>
+                </div>
+                <div class="client-item col-lg-2 col-md-2 col-sm-12 col-xs-12 text-center"
+                     style="font-family: sans-serif; width: 250px; margin-top: 30px;min-height:80px;">
+                    <div class="text-center" style="font-family: sans-serif;">
+                        <div style="font-family: sans-serif;"><img
+                                src="https://xaoxao.vn/xaoxao/static/src/img/client/tensorflow.png" alt="TensorFlow"
+                                style="width: 170px; height: 38.0312px; background-size: auto 100%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Xao Xao Digital Footer -->
+        <div style="transform:translateX(-35px);padding-top: 5%">
+            <div class="text-center" style="width:100%;margin-bottom: 20px;">
+                <img style="width: 150px;margin-top: -15px;" src="images/line.png" alt="">
+            </div>
+            <div style="max-width: 600px;margin: auto;">
+                <p style="line-height: 30px;text-align: center;">
+                    Xao Xao Digital - a Vietnam based Odoo provider.
+                    We got over 6 years in Odoo ERP framework. Our main point is become an Odoo provider with
+                    customization solutions.
+                    We can help you to setup the server on AWS, GG cloud, implement the modules, customize the flows.
+                    Our portfolios also have a few projects on IoT, AI, and Third Party Integration.
+                    Feel free to reach us at:
+                <ul class="simple">
+                    <li>Website: <a target="_blank" href="https://xaoxao.vn">https://xaoxao.vn</a></li>
+                    <li>Linkedin: <a target="_blank" href="https://www.linkedin.com/company/xaoxaodigital/">Xao Xao
+                        Digital LinkedIn</a>
+                    </li>
+                    <li>Youtube: <a target="_blank" href="https://www.youtube.com/channel/UCkywiq1w9BM5j7gpboNmvvw">Xao
+                        Xao Digital Channel</a></li>
+                    <li>Email: <strong>sales@xaoxao.vn</strong></li>
+                </ul>
+                </p>
+
+            </div>
+        </div>
+
+        <!-- container End -->
+    </div>
+</div>
+</body>
+
+</html>

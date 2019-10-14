@@ -11,6 +11,11 @@ body, html {
     height: 100%;
 }
 
+body > #wrapwrap,
+body > #wrapwrap > main {
+	height: 100%;
+}
+
 .body_login {
     display: inline-block;
     text-align: center;
