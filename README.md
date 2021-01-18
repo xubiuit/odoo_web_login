@@ -8,5 +8,5 @@ Available addons
 ----------------
 addon | version | summary
 --- | --- | ---
-[odoo_web_login](odoo_web_login/) | 13.0.1.0 | Odoo Web Login Screen
+[odoo_web_login](odoo_web_login/) | 14.0.1.0 | Odoo Web Login Screen
 
